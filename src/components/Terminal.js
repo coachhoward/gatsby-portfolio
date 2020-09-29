@@ -47,7 +47,7 @@ class Terminal extends Component {
             <div className="circle yellow" style={{ backgroundColor: "#EDCF31"}}></div>
             <div className="circle green" style={{ backgroundColor: "#4CED31"}}></div>
           </div>
-          <div className="terminal-title">bash</div>
+          <div className="terminal-title">📂 Chris-Howard--bash--106x24</div>
         </nav>
         <div className="row">
           <FontAwesomeIcon icon={ faAngleRight } className="angle-right" style={{ color: 'white', fontSize:'15px'}}/>

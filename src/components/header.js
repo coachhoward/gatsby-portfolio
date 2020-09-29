@@ -18,8 +18,8 @@ const Header = ({ siteTitle }) => (
     <div className="header-container">
       <div className="user-info-container">
         <div className="user-info">
-          <p>Morgan Matthews</p>
-          <p>Front-End Developer</p>
+          <p>Chris Howard</p>
+          <p>Full Stack Engineer</p>
         </div>
         <div className="x-icon">
           <FontAwesomeIcon icon={ faTimes } style={{ color: '#C4C4C4', fontSize:'20px', fontWeight:'0px', display:'inline-block'}}/>  
@@ -29,15 +29,15 @@ const Header = ({ siteTitle }) => (
       
       
       <div className="icons-container">
-            <a href="mailto:someone@yoursite.com">
+            <a href="mailto:Chris@AppsArchitect.com">
               <MailSVG />
             </a>
 
-            <a href="https://www.instagram.com/">
+            {/* <a href="https://www.instagram.com/">
               <InstagramSVG />
-            </a>
+            </a> */}
 
-            <a href="https://www.linkedin.com/">
+            <a href="https://www.linkedin.com/in/chrishoward1softwareengineer/">
               <LinkedInSVG />
             </a>
 

@@ -1,5 +1,5 @@
 import React from "react"
-import picture from "../images/about-picture.jpg"
+import picture from "../images/vscode.png"
 
 class Bio extends React.Component  {
   render(){
@@ -15,32 +15,53 @@ class Bio extends React.Component  {
         <div className="about-content-container">
 
           <div className="comments">
-              <p>// This is a comment.</p>
-              <p>// This is a comment.</p>
-              <p>// This is a comment.</p> 
+              <p>// I look forward to helping</p>
+              <p>/* you on your project */</p>
+              <p>// please contact me</p> 
           </div>
 
             <div className="about-main-section">
              
               <ul className="about-list">
                 <li>
-                  <p><span style={{ color: "#FF97FF"}}>.name</span> &#123; </p>
-                    <p className="tag-info">Morgan MacGregor</p>
+                  <p><span style={{ color: "#FF97FF"}}>const myInfo = </span> &#123; </p>
+                    <p className="tag-info"> first name: Chris, <br/  > <span>   </span>last name: Howard, <br/>
+                    email:  <a href ="mailto:Chris@AppsArchitect.com" style={{ color: "#ffa500"}}>Chris@AppsArchitect.com</a> 
+                    <br/> phone: (352)459-1298</p>
                   <p>&#125;</p>
                 </li>
                 <li>
-                  <p><span style={{ color: "#86FFF8"}}>.bio</span> &#123; </p>
-                    <p className="tag-info">I am from New York, where she I work as a senior web engineer at Flywheel, WordPress hosting for creatives. I has 6 years of experience as a Full Stack engineer with a focus on APIs and creating responsive sites. In my spare time you can find me listening to true-crime podcasts, skateboarding in Prospect Park or teaching a spin class. </p>
+                  <p><span style={{ color: "#86FFF8"}}>const myBio = (SoftwareEngineer) => </span> &#123; </p>
+                    <p className="tag-info">“My experience with structural engineering, architectural design, and the general construction of large-scale industrial projects led me to be a software engineer. Being able to deliver the architecture that creates the roadmap to a solution is very satisfying. I put myself in the client’s shoes daily as I build the technology that solves problems specific to their needs.” </p>
                   <p>&#125;</p>
                 </li>
                 <li>
-                  <p><span style={{ color: "#94D381"}}>.skills</span> &#123; </p>
-                    <p className="tag-info">Web: HTML;</p>
-                    <p className="tag-info">Web: CSS;</p>
-                    <p className="tag-info">Web: Javascript;</p>
+                  <p><span style={{ color: "#94D381"}}>const techSkills = </span> &#123; </p>
+                    <p className="tag-info">Web: HTML,
+                     Web: CSS, Web: Javascript, Dev: React, Dev: Express, Dev: node, Dev: UI/UX, Dev: Bootstrap, Dev: React Context, Dev: JSON/JSON API, Test: Jest, Dev: MongoDb, Dev: Postgress, Dev: Rest API, Dev: Rails, Dev: Git, Dev: Web Sockets  </p>
+                    {/* <p className="tag-info">Web: Javascript;</p>
                     <p className="tag-info">Framework: React;</p>
                     <p className="tag-info">Framework: Nodejs;</p>
-                    <p className="tag-info">Cloud Platform: Heroku;</p>
+                    <p className="tag-info">Cloud Platform: Heroku;</p> */}
+                  <p>&#125;</p>
+                </li>
+                <li>
+                  <p><span style={{ color: "#FF97FF"}}>const recentProjects = </span> &#123; </p>
+                    <p className="tag-info">  </p>
+                    <a href ="https://coinstance.herokuapp.com/" style={{ color: "#ffa500"}}>Project: Fintech Coinstance,</a>
+                    <p className="tag-info"> </p>
+                    <a href ="https://coachhoward.github.io/froggerproject/" style={{ color: "#86FFF8"}}>Project: Frogger Video Game,</a>
+                    <p className="tag-info"> </p>
+                    <a href ="https://coinstance.herokuapp.com/" style={{ color: "#86FFF8"}}>Project: RealWealth FinTech,</a>
+                    <p className="tag-info"> </p>
+                    <a href ="https://artistconcertsfaqs.herokuapp.com/artists" style={{ color: "#ffa500"}}>Project: FAQ's Twilio' </a>
+
+
+                    {/* <p className="tag-info" >Web: Frogger Video Game;</p>
+                    <p className="tag-info">We: RealWealth;</p> */}
+                    
+                    {/* <p className="tag-info">Framework: Nodejs;</p>
+                    <p className="tag-info">Cloud Platform: Heroku;</p> */}
                   <p>&#125;</p>
                 </li>
               </ul>

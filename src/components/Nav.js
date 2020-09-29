@@ -50,29 +50,29 @@ class Nav extends React.Component  {
         <div className="folder-name-container">
             <FontAwesomeIcon icon={ faAngleDown } style={{ color: '#C4C4C4', fontSize:'25px'}}/> &nbsp;&nbsp;
             <FontAwesomeIcon icon={ faFolder } style={{ color: '#536579', fontSize:'30px'}}/> &nbsp;
-            <p>Keturah Portfolio Site</p>
+            <p>Chris Howard Portfolio</p>
         </div>
 
         <div className="navbar-pages-container">
             <div className="navbar-pages">
                 <FontAwesomeIcon icon={ faFile } className={index_classname} style={{ fontSize:'30px', float:'left'}}/>
                 &nbsp;&nbsp;&nbsp;
-                <Link to="/"><p>index.html</p></Link>
+                <Link to="/"><p>index.js</p></Link>
             </div>
             <div className="navbar-pages">
                 <FontAwesomeIcon icon={ faFile } className={about_classname} style={{ fontSize:'30px', float:'left'}}/>
                 &nbsp;&nbsp;&nbsp;
-                <Link to="/about"><p>about.html</p></Link>
+                <Link to="/about"><p>about.js</p></Link>
             </div>
             <div className="navbar-pages">
                 <FontAwesomeIcon icon={ faFile } className={portfolio_classname} style={{ fontSize:'30px', float:'left'}}/>
                 &nbsp;&nbsp;&nbsp;
-                <Link to="/portfolio"><p>projects.html</p></Link>
+                <Link to="/portfolio"><p>projects.js</p></Link>
             </div>
             <div className="navbar-pages">
                 <FontAwesomeIcon icon={ faFile } className={contact_classname} style={{ fontSize:'30px', float:'left'}}/>
                 &nbsp;&nbsp;&nbsp;
-                <Link to="/"><p>contact.html</p></Link>
+                <Link to="/about"><p>contact.js</p></Link>
             </div>
         
         </div>

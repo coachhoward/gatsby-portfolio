@@ -54,6 +54,7 @@ class Terminal extends Component {
           <Typist 
             cursor={{ hideWhenDone: true }}
           >
+            
             {command1}
           </Typist>
         </div>

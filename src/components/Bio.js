@@ -48,6 +48,8 @@ class Bio extends React.Component  {
                 <li>
                   <p><span style={{ color: "#FF97FF"}}>const recentProjects = </span> &#123; </p>
                     <p className="tag-info">  </p>
+                    <a href ="https://www.artistconcerts.com/" style={{ color: "#94D381"}}>Project: Artist Concerts,</a>
+                    <p className="tag-info">  </p>
                     <a href ="https://coinstance.herokuapp.com/" style={{ color: "#ffa500"}}>Project: Fintech Coinstance,</a>
                     <p className="tag-info"> </p>
                     <a href ="https://coachhoward.github.io/froggerproject/" style={{ color: "#86FFF8"}}>Project: Frogger Video Game,</a>

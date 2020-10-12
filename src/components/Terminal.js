@@ -19,7 +19,7 @@ class Terminal extends Component {
  componentDidMount() {
       setTimeout(() => {
         window.location.replace(`/about`)
-      }, 28000);
+      }, 26500);
     }
   
 
@@ -58,7 +58,7 @@ class Terminal extends Component {
           </Typist>
         </div>
         
-        <Delay wait={3000}>
+        <Delay wait={2000}>
           <div className="row">
             <FontAwesomeIcon icon={ faAngleRight } className="angle-right" style={{ color: 'white', fontSize:'15px'}}/>
             <Typist 
@@ -69,7 +69,7 @@ class Terminal extends Component {
           </div>
         </Delay>
         
-        <Delay wait={6000}>
+        <Delay wait={4000}>
           <div className="row">
             <FontAwesomeIcon icon={ faAngleRight } className="angle-right" style={{ color: 'white', fontSize:'15px'}}/>
             <Typist 
@@ -80,7 +80,7 @@ class Terminal extends Component {
           </div>
         </Delay>
         
-        <Delay wait={10000}>
+        <Delay wait={8000}>
           <div className="row">
             <FontAwesomeIcon icon={ faAngleRight } className="angle-right" style={{ color: 'white', fontSize:'15px'}}/>
             <Typist 
@@ -91,7 +91,7 @@ class Terminal extends Component {
           </div>
         </Delay>
         
-        <Delay wait={14000}>
+        <Delay wait={13000}>
           <div className="row">
             <FontAwesomeIcon icon={ faAngleRight } className="angle-right" style={{ color: 'white', fontSize:'15px'}}/>
             <Typist 
@@ -116,12 +116,13 @@ class Terminal extends Component {
         <Delay wait={23000}>
           <div className="row">
             <FontAwesomeIcon icon={ faAngleRight } className="angle-right" style={{ color: 'white', fontSize:'15px'}}/>
-            Sign In (Yes / No): &nbsp;
+            Sign In (Yes / No / Open Code Editor): &nbsp;
             <Typist 
               cursor={{ hideWhenDone: true }}
             >
               <Typist.Delay ms={900} />
-              Yes
+              {/* Yes */}
+              code .
             </Typist>
           </div>
         </Delay>

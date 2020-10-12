@@ -15,9 +15,9 @@ class Bio extends React.Component  {
         <div className="about-content-container">
 
           <div className="comments">
-              <p>// I look forward to helping</p>
-              <p>/* you on your project */</p>
-              <p>// please contact me</p> 
+              <p>{`// I look forward to helping`}</p>
+              <p>{`/* you on your project */`}</p>
+              <p>{`// please contact me`}</p> 
           </div>
 
             <div className="about-main-section">
@@ -31,14 +31,14 @@ class Bio extends React.Component  {
                   <p>&#125;</p>
                 </li>
                 <li>
-                  <p><span style={{ color: "#86FFF8"}}>const myBio = (SoftwareEngineer) => </span> &#123; </p>
-                    <p className="tag-info">“My experience with structural engineering, architectural design, and the general construction of large-scale industrial projects led me to be a software engineer. Being able to deliver the architecture that creates the roadmap to a solution is very satisfying. I put myself in the client’s shoes daily as I build the technology that solves problems specific to their needs.” </p>
+                  <p><span style={{ color: "#86FFF8"}}>const myBio = () => </span> &#123; </p>
+                    <p className="tag-info"> <span style={{ color: "#FF97FF"}}>return  </span>“My experience with structural engineering, architectural design, and the general construction of large-scale industrial projects led me to be a software engineer. Being able to deliver the architecture that creates the roadmap to a solution is very satisfying. I put myself in the client’s shoes daily as I build the technology that solves problems specific to their needs”; </p>
                   <p>&#125;</p>
                 </li>
                 <li>
-                  <p><span style={{ color: "#94D381"}}>const techSkills = </span> &#123; </p>
-                    <p className="tag-info">Web: HTML,
-                     Web: CSS, Web: Javascript, Dev: React, Dev: Express, Dev: node, Dev: UI/UX, Dev: Bootstrap, Dev: React Context, Dev: JSON/JSON API, Test: Jest, Dev: MongoDb, Dev: Postgress, Dev: Rest API, Dev: Rails, Dev: Git, Dev: Web Sockets  </p>
+                  <p><span style={{ color: "#94D381"}}>const techSkills = () => </span> &#123; </p>
+                    <p className="tag-info"><span style={{ color: "#FF97FF"}}>return  </span>"Web: HTML,
+                     Web: CSS, Web: Javascript, Dev: React, Dev: Express, Dev: node, Dev: UI/UX, Dev: Bootstrap, Dev: React Context, Dev: JSON/JSON API, Test: Jest, Dev: MongoDb, Dev: Postgress, Dev: Rest API, Dev: Rails, Dev: Git, Dev: Web Sockets";  </p>
                     {/* <p className="tag-info">Web: Javascript;</p>
                     <p className="tag-info">Framework: React;</p>
                     <p className="tag-info">Framework: Nodejs;</p>

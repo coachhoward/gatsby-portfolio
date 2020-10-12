@@ -183,7 +183,7 @@ header {
 
 .line-numbers {
     height: 10vh;
-    width: 1.5%;
+    width: 1.75%;
     color: #6B7388;
     float: left;
     margin-left: 5%;
@@ -346,7 +346,7 @@ header {
     }
 
     .line-numbers {
-        width: 6%;
+        width: 10%;
     }
 }
 
@@ -399,7 +399,8 @@ ul {
 
 .about-image-container {
     display: inline-block;
-    width: 23rem;
+    width: 22rem;
+    /* margin-right: 1rem; */
     object-fit: cover;
 }
 
